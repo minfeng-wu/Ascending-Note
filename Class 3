@@ -1,0 +1,45 @@
+Shell : bash shell, c shell
+Terminal: vision 
+history: list all commend line
+rm 也可以当重命名使用
+find 经常会面试到
+find ~ -name “*.txt” -exec grep -H “pattern” {} \;
+
+
+Permission:
+  Ownership level:
+   - owner
+   - group
+   - other
+   
+   read: 4
+   write: 2
+   execute: 1
+   
+         ugo
+   chmod 777 m1.txt
+   chown: 更改ownership
+   
+  
+Pipe：
+  cat + grep
+  cat m1.txt | grep "Guangdong"
+  xxxxxx | xxxxx
+  
+  
+Environment Variable:
+  printenv
+  echo$DB_PASSWORD
+  export DB_PASSWORD='password123'
+  
+  
+问题：
+1.  cat /var/log/system.log | grep “Aug 12 16:34”
+2.  find ./ -name "m1.txt" -exec grep -H "Guangdong" {} 
+3. echo$DB_PASSWORD
+
+
+作业：
+写一个shell
+打印所有readme 开头的文件
+  
