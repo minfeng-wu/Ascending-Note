@@ -1,0 +1,23 @@
+Review:
+
+HashMap
+  Node
+  k(hash) ---------------Value
+  next -> node
+  
+  
+  
+  Relation database vs nosql
+  时间换空间
+  
+  
+  self join: 自己可以 join 自己
+  
+  
+  
+  push 一定是commit
+  
+  modified -> staged -> committed
+  都可以回，            不好，一般不会这么做
+  
+  
