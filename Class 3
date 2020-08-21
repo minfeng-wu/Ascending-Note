@@ -1,7 +1,7 @@
 Shell : bash shell, c shell
 Terminal: vision 
 history: list all commend line
-rm 也可以当重命名使用
+mv 也可以当重命名使用
 find 经常会面试到
 find ~ -name “*.txt” -exec grep -H “pattern” {} \;
 
