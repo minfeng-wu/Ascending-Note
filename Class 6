@@ -1,0 +1,32 @@
+Review:
+Model View Controller: multiple layer, Separation concern —> loose coupling
+
+Maven:
+mvn archetype:generate -DgroupId=${your-group-id} -DartifactId=${your-artifactId} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+white_check_mark
+mvn archetype:generate -DgroupId=com.ascending -DartifactId=school-renting -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+white_check_mark
+
+pom.xml:
+
+maven follows convention over configuration
+pom -> dependency -> id -> open or download & save
+
+
+<plugin>
+  <groupId>org.flywaydb</groupId>
+  <artifactId>flyway-maven-plugin</artifactId>
+  <version>${flyway.version}</version>
+  <configuration>
+    <driver>org.postgresql.Driver</driver>
+    <url>jdbc:postgresql://localhost:5430/ascending-14</url>
+    <user>admin</user>
+    <password>password</password>
+    <schemas>
+      <schema>public</schema>
+    </schemas>
+  </configuration>
+</plugin>
+
+run time (dynamic polymorphism) vs compile-time (static polymorphism)  || binding
+熟知的                               overload,override
