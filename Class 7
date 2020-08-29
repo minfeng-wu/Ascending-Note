@@ -1,0 +1,19 @@
+Practice for OOP concepts:
+1. DRY(don't repeat yourself): 不要在一个project里两个地方，一样的code
+2. Single Responsibility: 一个class，一个功能。 超过30行要考虑一下。
+3. Open Closed Design: closed for modification, but open for entension
+
+DAO - Data Access Object  (Design Pattern)   不太懂 loose coupling, seperation concern
+
+Java Logging : 好一点的 Syetsm.out.print
+
+TEST:
+each test should be independent
+
+@BeforeClass
+  @Before
+  test1
+  @After 
+  
+  ...
+@AfterClass
