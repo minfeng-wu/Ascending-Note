@@ -10,6 +10,8 @@ hibernate:
 
 class variable vs instance variable;
 
+
+***************************8
 Design pattern - Singleton
 only one instance
 
@@ -21,7 +23,7 @@ public method to return the instance of the variable
 
 eager：
 直接fu值
-
+******************************
 
 driver connection
 string sql
@@ -29,3 +31,6 @@ execute
 close
 
 abstraction vs encapsaulation
+
+session factory heavy,
+session: thread safe, 用完就扔掉
