@@ -1,0 +1,4 @@
+Generic compile time error type的问题
+
+optional<T>：
+use as return type when null might cause a problem
