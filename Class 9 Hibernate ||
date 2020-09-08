@@ -1,0 +1,10 @@
+Hibernate II:
+
+Design Pattern - Factory
+Generate your class objects in a centralized location
+Creats objects without explose the instantiation logic to the client
+
+Benefit:
+Hide the detail of creation of class objects
+centralized control the generated objects to ensure a consistent behavior within the application, 直接get东西，不管constructor有没有改
+loose coupling between class
