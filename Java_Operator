@@ -1,0 +1,9 @@
+a = 20, b = 10
+print("print" + a + b)  = print 2010
+
+swao(int a, int b){
+...
+}
+won't change pass by value
+tenary operator
++ - 的底层是 bitwise shift
