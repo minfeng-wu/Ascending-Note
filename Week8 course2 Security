@@ -1,0 +1,19 @@
+stateful        vs     stateless
+
+stateful:
+cons:
+synchronize,100个server都要懂或者有session id
+
+
+stateless：
+密匙都一样，不用多存
+
+问题：
+多对多 一对多 取值
+
+auth
+resultMap
+
+token is in header， 叫做 Authorization 约定俗成  value：Bearer + Token
+payload 不能放sensitive信息
+token必须一定时间expire
