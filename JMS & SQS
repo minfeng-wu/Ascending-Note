@@ -1,0 +1,43 @@
+Java Message Service:  - API that provide the facility to create, send message, loose coupling Message Service
+Asynchronously send and receive business data and events
+
+Point to Point (Queue destination)
+A message is delivered from a producer to one consumer
+any producer put into queue, hold until queue get it
+
+publish/Subscribe(Topic destination)
+A message is delivered from a producer to any number of  consumer
+
+Amazon SQS - Simple Queue Service
+Cloud message service
+process in two ways
+1. standard queue(Default) support at least once delivery. APP should handle message arriving more than once and out of order
+2. FIFO queue: just like queue
+
+SQS visibility Timeout: 0s - 12h
+
+Dead-Letter Queue: dead message go into the queue automatically
+
+Two type of message consuming
+1. Long polling: waiting time > 0
+2. short polling: waiting time = 0
+
+**********important************
+SQS is pull-based, not push based,
+Message are 256 KB in size
+Message are kept in queue from 1 minute to 14 days
+Default: 4days
+Guaranty at least onece
+
+
+fluent api: 
+class imenu(){
+  public imenu eat()
+  public imenu pay()
+  
+}
+用：menu.eat().pay()
+
+builder design pattern - fluent builder design pattern
+
+email.EmailBuilder().setform().setAddress().setPerson()
