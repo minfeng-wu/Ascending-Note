@@ -1,0 +1,30 @@
+Java Assertion
+if(conn == null){throw new RuntimeException("Error")}
+
+Connection conn = getConnection()
+assert conn != null: "Error"
+
+# Mockito
+
+# Mockito.RETURNS_DEEP_STUBS
+
+当builder pattern的时候可以一直pass 下去
+
+
+# Life cycle:
+- panning - Defining - Designing - Building - Testing - Deplyment
+
+# SDLC model: 
+- WaterFall Model
+- Agile Model
+
+## Waterfall Model
+- Any phase can only begin when previous step finished
+- Simple and easy to use and easy to manage
+- Not good model for complex projects
+
+## Agile Model
+- Combination of iterative and incremental process model
+- each iteration last abou 1 to 3 weeks
+- cross functional team working
+

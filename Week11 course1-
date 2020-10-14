@@ -1,5 +1,0 @@
-Java Assertion
-if(conn == null){throw new RuntimeException("Error")}
-
-Connection conn = getConnection()
-assert conn != null: "Error"
